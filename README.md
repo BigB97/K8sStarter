@@ -14,6 +14,10 @@ Have the following installed and configured on your system:
 
 
 To run the web server locally, run the following commands:
+first
+```
+npm install
+```
 
 ```bash
 chmod +x ./build-and-deploy.sh
