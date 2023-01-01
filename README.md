@@ -47,12 +47,16 @@ killall minikube tunnel
 
 #### Assumptions
 
-minikube is already installed and configured with a working default driver
-curl is already installed on the system
-The minikube cluster has the ingress addon enabled (run minikube addons enable ingress to enable it)
+- minikube is already installed and configured with a working default driver
+<br>
+- curl is already installed on the system
+<br>
+- The minikube cluster has the ingress addon enabled (run minikube addons enable ingress to enable it)
 
 #### Additional Notes
 
 The web server only accepts GET requests on the path "/foo"
+<br>
 The JSON response has the following format: {"myFavouriteColor":<NAME>}, where <NAME> is the name of your favourite color
+  <br>
 The web server is deployed to the minikube cluster using a Deployment and a Service, with an Ingress resource routing requests to the Service using the URL http://bar.local/foo
