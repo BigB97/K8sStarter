@@ -19,6 +19,8 @@ first
 npm install
 ```
 
+second 
+
 ```bash
 chmod +x ./build-and-deploy.sh
 ./build-and-deploy.sh
