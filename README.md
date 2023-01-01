@@ -1,4 +1,4 @@
-Web Server Assignment
+##Web Server Assignment
 This repository contains the code and configuration for a simple Node.js web server that only accepts GET requests on the path "/foo" and returns a JSON response with the name of the favourite color. The web server is dockerised and the image is used in a Kubernetes deployment file and the "build-and-deploy.sh" script deploys the web server to a minikube cluster and configures the Ingress resource to route requests to the Service.
 
 Have the following installed and configured on your system:
