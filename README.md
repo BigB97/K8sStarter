@@ -48,9 +48,7 @@ killall minikube tunnel
 #### Assumptions
 
 - minikube is already installed and configured with a working default driver
-<br>
 - curl is already installed on the system
-<br>
 - The minikube cluster has the ingress addon enabled (run minikube addons enable ingress to enable it)
 
 #### Additional Notes
